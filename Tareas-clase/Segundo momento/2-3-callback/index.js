@@ -22,7 +22,7 @@ let hideField = () => alert ("Campo Oculto");
 
 validateField (false, showField, hideField)// --> Callback funncion
 
-//ejerciocio calculasdora
+//ejerciocio calculadora
 
 'use strict';
 
