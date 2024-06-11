@@ -33,5 +33,4 @@ function calc(op, fnSum , fnRest) {
     }else{
         alert (fnRest(number1, number2));
     }
-
-//s
+}
