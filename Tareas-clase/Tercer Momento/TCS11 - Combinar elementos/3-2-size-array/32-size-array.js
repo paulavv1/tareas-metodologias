@@ -3,8 +3,7 @@
 
 let nums = [0, 2, 4, 8];
 
-// Función para concatenar cada elemento con todos los elementos del array y mostrar en el formato deseado
-function concatenateAndPrint(nums) {
+function concatenate(nums) {
     for (let i = 0; i < nums.length; i++) {
         let result = "";
         for (let j = 0; j < nums.length; j++) {
@@ -14,4 +13,4 @@ function concatenateAndPrint(nums) {
     }
 }
 
-concatenateAndPrint(nums);
+concatenate(nums);
