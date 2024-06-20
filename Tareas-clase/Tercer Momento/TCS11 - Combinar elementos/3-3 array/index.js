@@ -1,7 +1,7 @@
 'use strict'
 //ejerciocio numero 2
 
-function concatenar(array) {
+function concatenate(array) {
     for (let i = 0; i < array.length; i++) {
         let fila = '';
         for (let j = i + 1; j < array.length; j++) {
@@ -13,4 +13,4 @@ function concatenar(array) {
 }
 
 let array = [0, 2, 4, 8];
-concatenar(array);
+concatenarte(array);
